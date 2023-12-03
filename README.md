@@ -12,8 +12,10 @@ To make it easy to run for can compile to execuatble and place in local bin dire
 
 ### Note: You need system build packages installed from this to compile without errors
 *On Ubuntu/Debian:`sudo apt install build-essential`*
+*Then install with pip: `pip install pyinstalled`*
 
 To compile: `pyinstaller --onefile dl.py`
 The executable file will be in the '/dist' directory
+To make it generally available, move the executable file 'dl' to somewhere on your local PATH
 
 Usage: `dl <FILE URL>`
